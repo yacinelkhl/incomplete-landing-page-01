@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  padding-top: 0;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 600px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(3, 47, 77, 0.993);
+}
+.brand {
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.skirtimg {
+  height: 80px;
+}
+.p1 {
+  line-height: 100px;
+  font-weight: 600;
+  margin: 0;
+  color: white;
+  font-size: 80px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.p2 {
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 560px;
+  background-color: white;
+  color: rgba(3, 55, 90, 0.993);
+  font-size: 80px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.introduction {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  margin-top: 50px;
+}
+.p3 {
+  width: 300px;
+  line-height: 60px;
+  font-weight: 600;
+  margin: 0;
+  margin-right: 100px;
+  margin-left: 60px;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.introduction-text {
+  width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(99, 96, 121);
+}
+.grid {
+  margin-left: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: top;
+  justify-content: center;
+}
+.pics {
+  margin-top: 20px;
+  height: 250px;
+  border-radius: 30px;
+  filter: grayscale(100%);
+}
+.p4 {
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(99, 96, 121);
+}
+.p5 {
+  width: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(99, 96, 121);
+}
+.p6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 200px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  color: rgba(3, 55, 90, 0.993);
+}
+.reviews {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.p505 {
+  display: inline-block;
+  padding-top: 150px;
+  margin-top: 150px;
+  margin-left: 30px;
+  padding-left: 50px;
+  margin-right: 30px;
+  padding-right: 50px;
+  border-radius: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(245, 245, 220, 0.644);
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+  color: rgba(3, 55, 90, 0.993);
+  text-align: center;
+}
+@media (max-width: 850px) {
+  .brand {
+    top: 150px;
+    left: 80px;
+  }
+  .skirtimg {
+    height: 80px;
+  }
+  .p1 , .p2 {
+    line-height: 65px;
+    font-size: 50px;
+  }
+  .p2 {
+    width: 350px;
+  }
+  .p3 {
+    margin-left: 50px;
+    line-height: 40px;
+  }
+  .pics {
+    height: 200px;
+  }
+  .p5 {
+    width: 200px;
+  }
+  .introduction-text {
+    margin-left: 50px;
+  }
+  .grid {
+    margin-left: 25px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .p6 {
+    font-size: 110px;
+  }
+  .p505 {
+    padding-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
